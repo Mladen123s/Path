@@ -1,0 +1,97 @@
+body {
+  background: linear-gradient(
+      to left,
+      rgba(255, 255, 255, 0),
+      rgba(19, 18, 18, 0.8)
+    ),
+    url(/slike/pexels-pixabay-235734.jpg);
+  font-family: "Heebo", sans-serif;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  margin-right: 85px;
+}
+.all {
+  width: 650px;
+  height: 520px;
+
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);
+}
+input {
+  width: 150px;
+  height: 20px;
+
+  background: rgba(0, 0, 0, 0.1);
+  border: none;
+  border-bottom: green;
+}
+.frst-lst {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  align-items: baseline;
+  position: relative;
+}
+.frst-lst label {
+  position: absolute;
+  bottom: 0px;
+}
+
+#radio-1 {
+}
+h3 {
+  display: flex;
+}
+.email {
+  width: 370px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 30px;
+}
+.password {
+  margin-bottom: 30px;
+  width: 370px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.confirm {
+  width: 370px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+#h3 {
+  margin-left: 14px;
+}
+.btn {
+  padding: 10px;
+  display: flex;
+  height: 60px;
+  border-radius: 20px;
+  justify-content: center;
+}
+.btn-1 {
+  width: 100px;
+  height: 50px;
+  border-radius: 20px 16px;
+  font-size: 20px;
+  background: rgba(19, 18, 18, 0.8);
+  color: white;
+  border: 2px rgba(19, 18, 18, 0.8) solid;
+}
+#a {
+  text-decoration: none;
+  color: white;
+  width: 100px;
+  height: 50px;
+}
+.login {
+  margin-left: 14px;
+  font-size: 18px;
+}

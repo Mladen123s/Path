@@ -1,0 +1,84 @@
+body {
+  background-image: linear-gradient(
+      to left,
+      rgba(58, 255, 58, 0.8),
+      rgba(255, 255, 255, 0) 67%
+    ),
+    url(/slike/pexels-cottonbro-4886796.jpg);
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Heebo", sans-serif;
+}
+.all {
+  display: flex;
+}
+.logo {
+  flex: 0.7;
+  padding: 20px 34px;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+}
+.nav-links {
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+}
+.links {
+  font-size: 20px;
+  color: white;
+  padding: 20px 24px;
+  transition: 0.5s background ease;
+}
+a {
+  color: white;
+  text-decoration: none;
+  height: 34px;
+}
+
+.links:hover {
+  background: rgb(184, 254, 184);
+}
+.signup {
+  margin-left: 350px;
+  border: white solid;
+  transition: 0.5s background ease;
+  border-radius: 60px;
+}
+.signup:hover {
+  background: rgb(184, 254, 184);
+}
+.banner {
+}
+.text {
+  padding: 140px 124px;
+  width: 500px;
+  float: right;
+  color: white;
+  height: 800px;
+}
+h1 {
+  font-size: 70px;
+}
+#p {
+  font-size: 25px;
+}
+.btn {
+  display: flex;
+  justify-content: flex-start;
+  width: 100px;
+  height: 50px;
+}
+.btn-1 {
+  background: rgba(58, 255, 58, 0.5);
+  width: 100px;
+  border-radius: 20px;
+  font-size: 20px;
+  transition: background 0.5s ease;
+}
+.btn-1:hover {
+  background: rgb(184, 254, 184);
+}
